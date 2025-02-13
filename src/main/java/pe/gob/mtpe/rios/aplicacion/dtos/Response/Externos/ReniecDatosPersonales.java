@@ -1,0 +1,63 @@
+package pe.gob.mtpe.rios.aplicacion.dtos.Response.Externos;
+
+import lombok.Data;
+
+@Data
+public class ReniecDatosPersonales {
+    private String apellidoPaterno;
+    private String apellidoMaterno;
+    private String apellidoCasado;
+    private String nombres;
+    private String fechaNacimiento;
+    private String genero;
+    private String estadoCivil;
+    private String codigo;
+    private String coddep;
+    private String codpro;
+    private String coddist;
+    private String direccion;
+    private Boolean fallecido;
+    private String coddepnac;
+    private String codpronac;
+    private String coddistnac;
+    private String fechaCaducidad;
+    private String digitoVerificacion;
+    private String codcon;
+    private String codpais;
+    private String contDomicilio;
+    private String paisDomicilio;
+    private String depDomicilio;
+    private String provDomicilio;
+    private String distDomicilio;
+    private String gradoInstruccion;
+    private String estatura;
+    private String docSustent;
+    private String numSustent;
+    private String codContNac;
+    private String codpaisNac;
+    private String contNac;
+    private String paisNac;
+    private String depNac;
+    private String provNac;
+    private String distNac;
+    private String nomPadre;
+    private String nomMadre;
+    private String fechaInscripcion;
+    private String fechaExpedicion;
+    private String constVotacion;
+    private String restriccion;
+    private String prefijoDireccion;
+    private String numDireccion;
+    private String blkClt;
+    private String interior;
+    private String urbanizacion;
+    private String etapa;
+    private String manzana;
+    private String lote;
+    private String prefijoBlkClt;
+    private String prefijoDptoPisoInt;
+    private String prefijoUrbCondRes;
+    private String foto;
+    private String firma;
+    private String dni;
+}
